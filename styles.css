@@ -1,48 +1,77 @@
 body {
   text-align: center;
-  background-color: #283149;
+  background-color: #deeeff;
 }
 
 h1 {
   font-size: 5rem;
-  color: #DBEDF3;
+  color: black;
   font-family: "Arvo", cursive;
   text-shadow: 3px 0 #DA0463;
 
 }
 
 footer {
-  color: #DBEDF3;
+  color: black;
   font-family: sans-serif;
 }
 
 .w {
   background-image: url("images/tom1.png");
-
+  transition: transform .2s;
 }
+.w:hover{
+    transform: scale(1.1); 
+}
+
 
 .a {
   background-image: url("images/tom2.png");
+  transition: transform .2s;
 }
+.a:hover{
+    transform: scale(1.1); 
+}
+
 
 .s {
   background-image: url("images/tom3.png");
+  transition: transform .2s;
+}
+.s:hover{
+    transform: scale(1.1); 
 }
 
 .d {
   background-image: url("images/tom4.png");
+  transition: transform .2s;
+}
+.d:hover{
+    transform: scale(1.1); 
 }
 
 .j {
   background-image: url("images/snare.png");
+  transition: transform .2s;
 } 
+.j:hover{
+    transform: scale(1.1); 
+}
 
 .k {
   background-image: url("images/crash.png");
+  transition: transform .2s;
+}
+.k:hover{
+    transform: scale(1.1); 
 }
 
 .l {
   background-image: url("images/kick.png");
+  transition: transform .2s;
+}
+.l:hover{
+    transform: scale(1.1); 
 }
 
 .set {
