@@ -11,16 +11,22 @@ h1 {
 
 }
 
+
 footer {
   color: black;
   font-family: sans-serif;
 }
 
-.w {
+.intro{
+  font-family: "Arvo", cursive;
+  font-size: 20px;
+}
+
+.f {
   background-image: url("images/tom1.png");
   transition: transform .2s;
 }
-.w:hover{
+.f:hover{
     transform: scale(1.1); 
 }
 
